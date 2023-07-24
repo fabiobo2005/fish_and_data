@@ -20,4 +20,6 @@ Energy London: https://data.london.gov.uk/dataset/leggi
 
 Population world: https://www.eia.gov/international/data/country/GBR/total-energy/total-energy-consumption?pd=44&p=000000000000000000000000000000000000000000000000000000000fu&u=2&f=A&v=line&a=-&i=none&vo=value&t=C&g=none&l=249--81&s=315532800000&e=1609459200000
 
-Population London: https://data.london.gov.uk/dataset/trend-based-population-projections
+Population London: 
+- https://data.london.gov.uk/dataset/trend-based-population-projections
+- https://www.macrotrends.net/cities/22860/london/population
