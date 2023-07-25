@@ -21,6 +21,7 @@ if(sum(as.numeric(!pacotes %in% installed.packages())) != 0){
   sapply(pacotes, require, character = T)
 }
 
+##### PLEASE CONSIDER TO CHANGE FILE LOCATION WHEN RUNNING ON YOUR OWN COMPUTER
 #IMPORT DATABASE FROM LONDON DATASTORE
 new_base <- read_excel("C:/Users/fprudente/OneDrive/Treinamento/ESALQ USP/IBS- intercambio em Londres/DS1/LEGGI_2020.xlsx",
                                      sheet = "Summary") %>%
@@ -392,6 +393,5 @@ consol_base_pred_models <- bind_rows(consol_base_hist, consol_models_consumption
 glimpse(consol_base_hist)
 glimpse(consol_models_consumption_energy)
 
+############### PLEASE CONSIDER TO CHANGE FILE LOCATION WHEN SAVING ON YOUR OWN COMPUTER 
 writexl::write_xlsx(consol_base_pred_models, "C:/Users/fprudente/OneDrive/Treinamento/ESALQ USP/IBS- intercambio em Londres/DS1/consol_energy_consumption.xlsx")  
-
-writexl::write_xlsx(domestic_sourcing_ETS, "C:/Users/fprudente/OneDrive/Treinamento/ESALQ USP/IBS- intercambio em Londres/DS1/domestic_sourcing_ETS_prediction_2050.xlsx")
